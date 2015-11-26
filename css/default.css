@@ -1,0 +1,104 @@
+/* RESET - Cancel some browser defaults to get consistent styling from one browser
+   to another. */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: comic sans ms;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+
+
+/* Layout */
+
+/* Header */
+
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.header {
+	height: auto;
+	width: 100%;
+	display: flex;
+	border: solid black 2px;
+}
+
+#logo {
+	height: 100px;
+	width: 150px;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.nav a{
+	font-size: 2em;
+	text-decoration: none;
+}
+
+#navList {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding-bottom: .25em;
+}
+
+#navList a{
+	padding-right: 1.5em;
+}
+
+
+/* Body */
+
+.body {
+	display: flex;
+	flex-direction: row;
+}
+
+.bodydiv {
+	padding: 2em;
+	
+}
+
+
+
+	/*** Leaderboard */
+.bodydiv h1{
+	font-size: 1.125em;
+}
+.tbl_leaderboard{
+	font-size: .85em;
+
+}
+
+.tbl_leaderboard, td, th {
+	border: solid black 1px;
+	border-collapse: collapse;
+}
+
+	
+
+
+
+
+/* Table */
+
+.tbl_leaderboard {
+	padding: .3em .25em;
+}
+
+.tbl_leaderboard td, th {
+	padding: .3em .25em;
+}
